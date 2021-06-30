@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+    <title>One Piece</title>
+  </head>
+  <body style="height: 2000px;">
+    
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+            <div class="container">
+                <a href="accueil.html" class="navbar-brand mb-0 h1">
+                    <img class="d-inline-block align-top" src="img/560.jpg" width="50" height="50">
+                    One Piece
+                    
+                    
+                </a>
+                <a href="#">
+                    <button type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" class="navbar-toggler" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                    </button>
+                </a>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item avtive">
+                            <a href="accueil.html" class="nav-link active">
+                                Accueil
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Yonko
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="shanks.html" class="dropdown-item">Shanks le Roux</a></li>
+                                <li><a href="big.html" class="dropdown-item">Big Mom</a></li>
+                                <li><a href="kaido.html" class="dropdown-item">Kaido</a></li>
+                                <li><a href="barbeNoir.html" class="dropdown-item">Barbe Noir</a></li>
+                                <li><a href="barbeBlanche.html" class="dropdown-item">Barbe Blanche</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Supernova
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="mugiwara.html" class="dropdown-item">Chapeau de Paille</a></li>
+                                <li><a href="kid.html" class="dropdown-item">Kid</a></li>
+                                <li><a href="bege.html" class="dropdown-item">Bege</a></li>
+                                <li><a href="hawking.html" class="dropdown-item">Hawking</a></li>
+                                <li><a href="law.html" class="dropdown-item">Law</a></li>
+                                <li><a href="urouge.html" class="dropdown-item">Urouge</a></li>
+                                <li><a href="apoo.html" class="dropdown-item">Apoo</a></li>
+                                <li><a href="jewelry.html" class="dropdown-item">Jewelry Bonney</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Revolutionaire
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="chef.html" class="dropdown-item">Chefs</a></li>
+                                <li><a href="commandant.html" class="dropdown-item">Commandants</a></li>
+                                <li><a href="sous-Commandants.html" class="dropdown-item">Sous-Commandants</a></li>
+                                <li><a href="officier.html" class="dropdown-item">Officiers</a></li>
+                                <li><a href="autreMembre.html" class="dropdown-item">Autres membres</a></li>
+                                <li><a href="affiliés.html" class="dropdown-item">Affiliés</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle"
+                            id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Marine
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a href="amiralCommandantEnChef.html" class="dropdown-item">Amiral comandant en chef</a></li>
+                                <li><a href="amiraux.html" class="dropdown-item">Amiraux</a></li>
+                                <li><a href="viceAmiral.html" class="dropdown-item">Vice-Amiraux</a></li>
+                                <li><a href="sousAmiraux.html" class="dropdown-item">Sous-Amiraux</a></li>
+                                <li><a href="colonels.html" class="dropdown-item">Colonels</a></li>
+                                <li><a href="commandants.html" class="dropdown-item">Commandants</a></li>
+                                <li><a href="lieutenant.html" class="dropdown-item">Lieutenants</a></li>
+                                <li><a href="autreOfficier.html" class="dropdown-item">Autres Officiers</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="generer.html" class="nav-link">
+                                Memory
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="contact.html" class="nav-link">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <form class="d-flex">
+                    <input type="text" class="form-control me-2">
+                    <button type="submit" class="btn btn-outline-success">Search</button>
+                </form>
+            </div>
+        </nav>
+        <div class="container text-center">
+            <div id="resultat"></div>
+        </div>
+        
+        
+        
+        
+        
+        
+        <script src="main.js"></script>
+        
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+</html>
